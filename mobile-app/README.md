@@ -1,13 +1,14 @@
 # Mobile app
 ### Steps to build the app:
--  Εγκατάσταση του [Android Studio](https://developer.android.com/studio)
--  Εγκατάσταση του [ngrok](https://ngrok.com/) 
+-  Installation of [Android Studio](https://developer.android.com/studio)
+-  Installation of [ngrok](https://ngrok.com/) 
 
-Εκτελούμε το αρχείο ngrok και πληκτρολογούμε την εντολή:
+We execute the ngrok script and type in the command:
 ````
 ngrok http https://localhost:8765/
 ````
 
-Στο αρχείο *RequestManager.kt* (path: CGEEnergy\app\src\main\java\com\cge\cgeenergy\managers) τροποποιούμε το baseUrl ώστε να αντικαταστήσουμε το https://localhost:8765/ με το url αντιστοίχισης που βλέπουμε στο παράθυρο ngrok.
+In the file *RequestManager.kt* (path:CGEEnergy\app\src\main\java\com\cge\cgeenergy\managers) we modify the baseURL with the *url* we see on our *ngrok* terminal
 
-Συνδέουμε android κινητό στο οποίο έχουμε ενεργοποιήσει τις επιλογές android development και τρέχουμε την εφαρμογή.
+We then connect our android device and launch the application
+

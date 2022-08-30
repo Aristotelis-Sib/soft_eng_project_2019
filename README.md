@@ -1,9 +1,9 @@
 # ntua-softeng
 ## SoftEng NTUA 2019-2020 Project
-### Oμάδα Can't GIT Enough (TL19-14)
-[//]: # (Αλφαβητικά, επώνυμο)
+### Team Can't GIT Enough (TL19-14)
+[//]: # (Alphabetically, surname)
 
-Επώνυμο | Όνομα | Αριθμός Μητρώου
+Surname | Name | Student ID 
 --- | --- | ---
 Μπακιρτζή | Χριστίνα | 03116013
 Ξεφτέρη | Βασιλική | 03116064

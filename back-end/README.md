@@ -10,12 +10,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-#### Κάθε επόμενη φορά
+#### To activate next time
 `source venv/bin/activate`
 
 ### Configurations
 
-Tα βασικά στο config.py για τη βάση δεδομένων (postgreSQL).
+The config.py for our database manager (postgreSQL)
 
 ```python
 SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user='postgres', pw='root',
@@ -25,11 +25,11 @@ SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(
 ### Run
 `python3 run.py or python run.py`
 
-Για δοκιμή των HTTP methods υπάρχει το Postman
+For testing our HTTP requests we used Postman
 
 ### HTTPS
 
-Για self-signed-certificate στο αρχείο run.py:
+For self-signed-certificate in the script run.py:
 
 ```python
 if __name__ == "__main__":
